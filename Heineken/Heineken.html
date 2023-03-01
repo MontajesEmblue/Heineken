@@ -6,8 +6,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Alvaro Jose Tafurt, Juan Pablo Marin">
-    <title>Heineken</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Obra Fanfest</title>
+    <link rel="icon" href="..\Heineken\imgs\favicon.ico">
+   
+    
     <style type="text/css">
       body { -ms-touch-action: none; }
     </style>
@@ -102,6 +104,20 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+    
+      .titulos{
+        font-weight: bold;
+        text-shadow: rgb(36, 36, 35) 1px 0 10px;
+        text-align: left;
+        font-size: 50px;
+      }
+      .subtitulos{
+        text-shadow: rgb(36, 36, 35) 1px 0 10px;
+        text-align: left;
+      }
+
+
     </style>
 
     <!-- Custom styles -->
@@ -109,9 +125,10 @@
   </head>
   <body oncontextmenu="return false;">
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
-        <div class="container-fluid mx-5">
-          <a class="navbar-brand" href="#">Heineken</a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid mx-3">
+          <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/heineken-14-logo.png" alt="Logo Emblue" width="150" >
+          <!-- <a class="navbar-brand" href="#">Heineken</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -130,26 +147,36 @@
     </header>
 
     <main>
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner bg-success">
+          <div class="carousel-item active">
+            <img src="https://www.heineken.com/media-la/cqfmmhto/our-story-brewing-hero.jpg?quality=85" class="banner" alt="Banner Heineken" width="2378"  >
+            <div class="carousel-caption d-block d-md-block">
+              <h1 class="titulos">Obra FanFest</h1>
+              <p class="subtitulos">Vivir la Champions de forma diferente</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner bg-dark">
+        <div class="carousel slide">
+          <img src="https://www.heineken.com/media-la/pmdddloe/brand-hero.jpg?quality=85" class="d-block w-100" alt="...">
           <div class="carousel-item active">
-            <!-- <img src="https://img.freepik.com/free-photo/abstract-blur-empty-green-gradient-studio-well-use-as-background-website-template-frame-business-report_1258-67883.jpg" alt=""> -->
+            
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1 >La Obra FanFest</h1>
                 <p></p>
-                <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>-->
-              </div>
+                 <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>-->
+              <!-- </div>
             </div>
           </div>
-
-         
-        </div>
+        </div> -->
 
   
     <!-- Marketing messaging and featurettes
@@ -161,7 +188,7 @@
       <!-- Three columns of text below the carousel -->
 
       
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
       
       <div class="row featurette">
         <!-- Keyshot visualizer -->
@@ -172,18 +199,18 @@
       </div>
 
       <!-- START THE FEATURETTES -->
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
     
   
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
   
 
   
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
   
    
   
-      <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider"> -->
   
       <!-- /END THE FEATURETTES -->
   

@@ -1,0 +1,11 @@
+{
+ "name": "App",
+ "icons": [
+  {
+   "src": "/icons8-heineken-a-pale-lager-beer-with-alcohol-by-volume-produced-with-red-star-logotype-tal-revivo-shadow-72.png",
+   "sizes": "72x72",
+   "type": "image/png",
+   "density": "1.5"
+  }
+ ]
+}
